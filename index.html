@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <h1>Bem vindo ao Jogo da Velha - Versão Pro-6</h1>
+    
+    <form action="">
+        <fieldset>
+            <legend>Player 1</legend>
+            <label for="p1-name">Digite seu nome, jogador 1:</label><br>
+            <input type="text" id="p1-name" name="p1-name"><br>
+            <button type="submit">Enviar Nome</button><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Player 2</legend>
+            <label for="p2-name">Digite seu nome, jogador 2:</label><br>
+            <input type="text" id="p2-name" name="p2-name"><br>
+            <button type="submit">Enviar Nome</button><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Choosing turns</legend>
+            <p>Escolha cara ou coroa:</p>
+            <input type="radio" name="turn" id="cara" value="cara">
+            <label for="cara">Cara</label>
+            <input type="radio" name="turn" id="coroa" value="coroa">
+            <label for="coroa">Coroa</label>
+
+        </fieldset>
+
+        <button type="button" onclick="gameStart()">Iniciar Partida</button>
+    </form>
+
+    <div class="container">
+        
+    </div>
+
+</body>
+</html>
