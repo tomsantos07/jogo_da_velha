@@ -5,3 +5,19 @@ body {
 p, h1, label {
     color: #FAEBD7;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    align-items: center; /*centralizou horizontal*/
+    margin: auto; /*centralizou no centro da tela horizontal*/
+}
+    
+.cell {
+    width: 33.33%;
+    height: 100px;
+    border:2px solid #FAEBD7;
+    cursor: pointer;
+    box-sizing: border-box;
+}
